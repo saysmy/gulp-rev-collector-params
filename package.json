@@ -1,0 +1,42 @@
+{
+  "name": "gulp-rev-collector-params",
+  "version": "1.0.1",
+  "description": "Static asset revision data collector from manifests, generated from different streams, and replace their links in html template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saysmy/gulp-rev-collector-params.git"
+  },
+  "keywords": [
+    "gulp",
+    "rev",
+    "collector",
+    "revision",
+    "version",
+    "versioning",
+    "static",
+    "asset",
+    "assets"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": ">=0.5.1",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "lodash.isequal": "^4.4.0",
+    "mocha": "*"
+  },
+  "author": {
+    "name": "smy",
+    "email": "793501972@qq.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saysmy/gulp-rev-collector-params/issues"
+  },
+  "homepage": "https://github.com/saysmy/gulp-rev-collector-params#readme"
+}
